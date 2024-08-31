@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* learn more anchore here css */
+
+.learn-more-anchor{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:  #0077ED;
+  border-radius: 20px;
+  color: white;
+}
+
+.learn-more-anchor:hover{
+  background-color: white;
+  border: 1px solid #0077ED;
+  color: #0077ED;
+}
+
+/* shop button anchor here */
+
+.shop-button-anchor{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #0077ED;
+  border-radius: 20px;
+  color: #0077ED;
+}
+
+.shop-button-anchor:hover{
+  color: white;
+  background-color: #0077ED;
+}
+
+/* navbar css here */
+
+.navbar-anchor{
+    font-size: 13px;
+    color: black;
+}
+
+.middle-container-contents{
+    display: flex;
+    gap: 30px;
+  }
+
+.middle-container-contents-after-885px{
+    display: none;
+}
+
+/* macbook for college and ipad css heree */
+
+.button-for-mac-or-ipad-for-college{
+  height: 40px;
+}
+.mac-or-ipad-for-college{
+  height: 600px;
+  background-color: #F5F5F7;
+}
+
+/* apple event at 10 pm css here */
+
+.anchor-apple-event{
+  height: 40px;
+}
+
+
+/* query for navbar */
+@media (max-width: 845px) {
+      .middle-container-contents{
+        display: none;
+      }
+      .middle-container-contents-after-885px{
+        display: block;
+        display: flex;
+        justify-content:space-between;
+        width: 75%;
+      }
+      .middle-container-contents-after-885px-div-02{
+        display: flex;
+        gap: 20px;
+      }
+      .navbar-anchor{
+        font-size: 18px;
+    }
+}
+
+/* query for ipad or macbook for college */
+@media (max-width: 580px){
+      .mac-or-ipad-for-college{
+         height: auto;
+    }
+}
