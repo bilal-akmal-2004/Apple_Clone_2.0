@@ -77,6 +77,18 @@ a{
 
 /* iphone our ultrasfast phone,most powerful cameras */
 
+/* <!-- 6 small boxes with 50 % of width and their boxes --> */
+/* css here */
+.first-box{
+  width: 49%;
+}
+.background-whithish{
+  background-color: #F5F5F7;
+}
+.background-black{
+  background-color: #000000;
+}
+
 
 
 
