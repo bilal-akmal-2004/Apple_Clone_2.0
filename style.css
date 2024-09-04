@@ -1,77 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-body{
-    padding: 0px;
-    margin: 0px;
-    font-family: "Open Sans", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
 }
-a{
-    text-decoration: none !important;
+a {
+  text-decoration: none !important;
 }
 
 /* learn more anchore here css */
 
-.learn-more-anchor{
+.learn-more-anchor {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color:  #0077ED;
+  background-color: #0077ed;
   border-radius: 20px;
   color: white;
 }
 
-.learn-more-anchor:hover{
+.learn-more-anchor:hover {
   background-color: white;
-  border: 1px solid #0077ED;
-  color: #0077ED;
+  border: 1px solid #0077ed;
+  color: #0077ed;
 }
 
 /* shop button anchor here */
 
-.shop-button-anchor{
+.shop-button-anchor {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border: 1px solid #0077ED;
+  border: 1px solid #0077ed;
   border-radius: 20px;
-  color: #0077ED;
+  color: #0077ed;
 }
 
-.shop-button-anchor:hover{
+.shop-button-anchor:hover {
   color: white;
-  background-color: #0077ED;
+  background-color: #0077ed;
 }
 
 /* navbar css here */
 
-.navbar-anchor{
-    font-size: 13px;
-    color: black;
+.navbar-anchor {
+  font-size: 13px;
+  color: black;
 }
 
-.middle-container-contents{
-    display: flex;
-    gap: 30px;
-  }
+.middle-container-contents {
+  display: flex;
+  gap: 30px;
+}
 
-.middle-container-contents-after-885px{
-    display: none;
+.middle-container-contents-after-885px {
+  display: none;
 }
 
 /* macbook for college and ipad css heree */
 
-.button-for-mac-or-ipad-for-college{
+.button-for-mac-or-ipad-for-college {
   height: 40px;
 }
-.mac-or-ipad-for-college{
+.mac-or-ipad-for-college {
   height: 600px;
-  background-color: #F5F5F7;
+  background-color: #f5f5f7;
 }
 
 /* apple event at 10 pm css here */
 
-.anchor-apple-event{
+.anchor-apple-event {
   height: 40px;
 }
 
@@ -79,67 +79,58 @@ a{
 
 /* <!-- 6 small boxes with 50 % of width and their boxes --> */
 /* css here */
-.first-box{
+.first-box {
   width: 100%;
 }
-.first-two-boxes{
+.first-two-boxes {
   display: flex;
-
 }
-.middle-gap-for-small-boxes{
-   width: 2%;
+.middle-gap-for-small-boxes {
+  width: 2%;
 }
-.background-whithish{
-  background-color: #F5F5F7;
+.background-whithish {
+  background-color: #f5f5f7;
 }
-.background-black{
+.background-black {
   background-color: #000000;
 }
 
-
-
-
-
 /* query for navbar */
 @media (max-width: 845px) {
-      .middle-container-contents{
-        display: none;
-      }
-      .middle-container-contents-after-885px{
-        display: block;
-        display: flex;
-        justify-content:space-between;
-        width: 75%;
-      }
-      .middle-container-contents-after-885px-div-02{
-        display: flex;
-        gap: 20px;
-      }
-      .navbar-anchor{
-        font-size: 18px;
-    }
+  .middle-container-contents {
+    display: none;
+  }
+  .middle-container-contents-after-885px {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
+  .middle-container-contents-after-885px-div-02 {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar-anchor {
+    font-size: 18px;
+  }
 }
 
 /* query for ipad or macbook for college */
-@media (max-width: 580px){
-      .mac-or-ipad-for-college{
-         height: auto;
-    }
+@media (max-width: 580px) {
+  .mac-or-ipad-for-college {
+    height: auto;
+  }
 }
 
 /*  Query for the  6 small boxes with 50 % of width and their boxes */
-@media (max-width: 735px){
-  .first-two-boxes{
-      flex-wrap: wrap;
-      width: 100%  
-    }
-  
-  .first-box{ 
+@media (max-width: 735px) {
+  .first-two-boxes {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .first-box {
     width: 100%;
     margin-top: 5px;
   }
 }
-
-
-
-
