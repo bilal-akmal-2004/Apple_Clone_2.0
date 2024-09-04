@@ -80,7 +80,14 @@ a{
 /* <!-- 6 small boxes with 50 % of width and their boxes --> */
 /* css here */
 .first-box{
-  width: 49%;
+  width: 100%;
+}
+.first-two-boxes{
+  display: flex;
+
+}
+.middle-gap-for-small-boxes{
+   width: 2%;
 }
 .background-whithish{
   background-color: #F5F5F7;
@@ -88,6 +95,7 @@ a{
 .background-black{
   background-color: #000000;
 }
+
 
 
 
@@ -118,3 +126,20 @@ a{
          height: auto;
     }
 }
+
+/*  Query for the  6 small boxes with 50 % of width and their boxes */
+@media (max-width: 735px){
+  .first-two-boxes{
+      flex-wrap: wrap;
+      width: 100%  
+    }
+  
+  .first-box{ 
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+
+
+
