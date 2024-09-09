@@ -7,6 +7,18 @@ body {
 a {
   text-decoration: none !important;
 }
+hr{
+  width: 60%;
+}
+li{
+  font-weight: 200;
+  font-size: 12px;
+  list-style: none;
+}
+span{
+  font-weight: bold;
+}
+
 
 /* learn more anchore here css */
 
@@ -95,6 +107,38 @@ a {
   background-color: #000000;
 }
 
+/* <!-- now here are the text containing too much --> */
+.main-container-for-long-text-in-middle{
+  display: flex;
+  justify-content: center;
+}
+.text-holder-container-in-middle{
+  width: 60%;
+  font-size: 13px;
+}
+
+/* <!-- some rows and colom for the given text here is below --> */
+.main-container-for-rows-coloumn-text{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.text-holder-for-rows-coloum{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* 
+fotter css here */
+.middle-footer-text{
+  display: flex;
+  gap: 10px;
+}
+.text-holder-for-last-text{
+  display: flex;
+  justify-content: space-around;
+}
 
 
 /* query for navbar */
@@ -115,12 +159,27 @@ a {
   .navbar-anchor {
     font-size: 18px;
   }
+  .text-holder-container-in-middle{
+    width: 80%;
+  }
+  .text-holder-for-rows-coloum{
+    width: 80%;
+  }
+  .wid-100-for-footer{
+    width: 100%;
+  }
 }
 
 /* query for ipad or macbook for college */
 @media (max-width: 580px) {
   .mac-or-ipad-for-college {
     height: auto;
+  }
+  .text-holder-container-in-middle{
+    width: 100%;
+  }
+  .text-holder-for-rows-coloum{
+    width: 100%;
   }
 }
 
@@ -134,5 +193,14 @@ a {
   .first-box {
     width: 100%;
     margin-top: 5px;
+  }
+  .text-holder-for-last-text{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .middle-footer-text{
+    display: flex;
+    justify-content: center;
   }
 }
